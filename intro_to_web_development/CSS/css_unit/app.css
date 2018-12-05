@@ -1,0 +1,69 @@
+/* Attribute Selector */
+[for="email"]{
+    font-weight: bold;
+}
+
+/* Class Selector */
+.text-center{
+    text-align: center;
+}
+
+/* Class Selector */
+.text-blue{
+    color: blue;
+}
+
+/* ID Selector */
+#submitButton{
+    background: red;
+}
+
+/* Element Selector */
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline overline;
+}
+
+/* Change from inline to inline-block to change height and/or width properties */
+.highlight {
+    display: inline-block;
+    background: yellow;
+    height: 100px;
+}
+
+/* Try block, none, inline, and inline-block */
+input, label, button {
+    display: block;
+}
+
+/* Removes default margin on body.  */
+/* Change every font on site.  */
+body {
+    margin: 0;
+    font-family:'Lato', sans-serif;
+    background: url("./galaxy-jeremy-thomas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Add margin to main. */ 
+main {
+    margin-left: 5em;
+}
+
+/* Experiment with margin and padding values.  */
+button {
+    margin: 1em;
+    padding: 1em;
+}
+
+/* Just for the border example  */
+form {
+    padding: 1em;
+    margin: 0 auto;
+    width: 116px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+}

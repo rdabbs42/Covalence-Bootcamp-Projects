@@ -1,0 +1,120 @@
+body {
+    font-family: 'lato', sans-serif;
+    background-color: lightgray;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+h1, ul {
+    color: purple;
+}
+
+.style1 {
+    color: green;
+}
+
+.style2 {
+    color: blue;
+}
+
+.style3{
+    color: indigo;
+}
+
+#show1, #friends {
+    color: darkred;
+}
+
+#show2, #places {
+    color: orangered;
+}
+
+#show3, #restaurants {
+    color: orange;
+}
+
+#show4 {
+    color: yellow;
+}
+
+#show5 {
+    color: pink;
+}
+
+.border {
+    border: 2px solid black;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: plum;
+    font-weight: bold;
+}
+
+.boxes {
+    display: block;
+    margin: 1em;
+    padding: 0 1em 1em;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#box1 {
+    background-color: rosybrown;
+}
+
+#box2 {
+    background-color: lemonchiffon;
+}
+
+#box3 {
+    background-color: lightgreen;
+}
+
+#box4 {
+    background-color: aqua;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.image {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 1em 0;
+    background-color: coral;
+    float: left;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear-fix {
+    clear: both;
+}

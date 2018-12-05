@@ -1,0 +1,14 @@
+/* 
+Margin around content on larger screens
+becomes "fluid" on smaller screens
+.container {
+    background-color: blue;
+    height: 500px;
+}
+
+Fills entire width of screen.
+.container-fluid {
+    background-color: blue;
+    height: 500px;
+}
+*/

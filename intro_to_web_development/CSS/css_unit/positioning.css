@@ -1,0 +1,43 @@
+.box {
+    height: 10em;
+    width: 10em;
+    float: left;
+}
+
+
+/* Change position to relative, absolute, fixed, and float. */
+.red {
+    position: absolute;
+    background: red;
+    height: 5em;
+    width: 5em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+
+.blue {
+    position: relative;
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.purple {
+    background: purple;
+    float: none;
+    clear: both;
+}
+
+.pink {
+    background: pink;
+}
+
+.border-yellow {
+    border: 5px solid goldenrod;
+    box-sizing: border-box;
+}
